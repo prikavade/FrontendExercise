@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="67.334478">
+<testcase classname="To test the Search feature of Wikipedia" name="Check the Functionality of Search" time="24.561286">
+<system-out><![CDATA[Given User opens browser and launches Wikipedia url.........................passed
+When User is on Wikipedia Page and checks the Title.........................passed
+Then Searches for "furry rabbits"...........................................passed
+Then Checks that 'did you mean' suggestion appears..........................passed
+Then Checks that 20 search results appears..................................passed
+Then Checks the first search result and its details.........................passed
+And Closes the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the slider feature of Travelx" name="Check the Functionality of Slider for some elements" time="42.773192">
+<system-out><![CDATA[Given User opens browser and launches Travelex url..........................passed
+Then User resizes the window to 550px.......................................passed
+Then User swipes left on the slider.........................................passed
+Then User swipes left again.................................................passed
+Then User validates that the item displayed is indeed the third item........passed
+And Closes the Travelex Browser.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
